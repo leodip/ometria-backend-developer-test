@@ -1,0 +1,17 @@
+{    
+    "RunIntervalInSeconds": 100,
+    "Redis" : {
+        "Addr" : "redis-server:6379",
+        "Password": "",
+        "DB": 0
+    },
+    "Mailchimp": {
+        "BaseUrl": "https://us9.api.mailchimp.com/3.0",
+        "ApiKey": "add-api-key-here",
+        "DefaultMembersListId": "add-list-id-here"        
+    },
+    "Ometria": {
+        "Endpoint": "https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record",
+        "ApiKey": "add-api-key-here"
+    }
+}
